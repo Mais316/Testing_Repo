@@ -1,4 +1,4 @@
 resource "local_file" "pet" {
-  filename = "./pets.txt"
+  filename = "./pets-new.txt"
   content = var.contents
 }
